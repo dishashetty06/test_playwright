@@ -1,0 +1,67 @@
+.todo{
+  text-align:center;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-top:50px;
+}
+h1{
+  font-size:3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+  font-size:1.5rem;
+  font-weight:bold;
+  padding:8px 18px;
+  border:none;
+  border-radius: 10px;
+  cursor:pointer;
+  transition:background-color 0.5s ease;
+  margin:5px;
+}
+.add-btn{
+  background-color: rgb(4, 205, 4);
+  color:white;
+}
+.add-btn:hover{
+  background-color: green;
+  color:white;
+}
+.del-btn{
+  background-color:red;
+  color:white;
+}
+.del-btn:hover{
+  background-color:rgb(154, 0, 0);
+  color:white;
+}
+.move-btn{
+  background-color: rgb(255, 202, 229);
+}
+.move-btn:hover{
+  background-color: rgb(230, 230, 230);
+}
+input[type="text"]{
+  padding:10px;
+  border:2px solid rgb(116, 116, 116);
+  border-radius: 5px;
+  font-size:1.2rem;
+  color:rgb(0, 0, 0)
+}
+ol{
+  padding:0;
+}
+li{
+  font-size:1.5rem;
+  font-weight:bold;
+  padding:5px;
+  margin-bottom:10px;
+  display:flex;
+  align-items:center;
+}
+.text{
+  flex:1;
+}
+.del-btn,.move-btn{
+  padding:8px 12px;
+  margin-left:5px;
+  font-size:1.2rem;
+}
