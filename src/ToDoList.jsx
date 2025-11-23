@@ -49,9 +49,9 @@ function ToDoList(){
                     <button className="del-btn"
                     onClick={()=>{deleteTask(index)}}>Delete task</button>
                     <button className="move-btn"
-                    onClick={()=>{moveup(index)}}>☝️</button>
+                    onClick={()=>{moveup(index)}}>Up</button>
                     <button className="move-btn"
-                    onClick={()=>{movedown(index)}}>👇</button>
+                    onClick={()=>{movedown(index)}}>Down</button>
                 </li>)}
             </ol>
             </div>
